@@ -22,7 +22,7 @@
     "cp": "cpy dist ../../../test/storybook-module-mock/node_modules/storybook-addon-module-mock"
   },
   "dependencies": {
-    "minimatch": "*",
+    "minimatch": "^3.1.2",
     "react-json-tree": "^0.18.0"
   },
   "devDependencies": {
@@ -34,6 +34,7 @@
     "@storybook/react": "^7.5.2",
     "@storybook/types": "^7.5.2",
     "@types/babel__core": "^7.20.3",
+    "@types/minimatch": "^5.1.2",
     "@types/react": "^18.2.33",
     "@typescript-eslint/eslint-plugin": "^6.9.1",
     "@typescript-eslint/parser": "^6.9.1",

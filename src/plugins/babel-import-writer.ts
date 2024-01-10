@@ -1,5 +1,5 @@
 import { types as t, PluginObj, template, NodePath } from '@babel/core';
-import { minimatch } from 'minimatch';
+import minimatch from 'minimatch';
 import { AddonOptions } from '../types';
 
 const buildMocks = template(`
